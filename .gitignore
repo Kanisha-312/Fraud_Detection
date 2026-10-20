@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ─────────────────────────────────────────────
+# Data — download from Kaggle (see README)
+# ─────────────────────────────────────────────
+data/train_transaction.csv
+data/train_identity.csv
+data/*.csv
+
+# ─────────────────────────────────────────────
+# Trained model artifacts (large binary files)
+# ─────────────────────────────────────────────
+models/gnn_model.pt
+models/graph_data.pt
+models/scaler.pkl
+models/node_maps.pkl
+
+# ─────────────────────────────────────────────
+# Pipeline outputs & checkpoints
+# ─────────────────────────────────────────────
+outputs/
+
+# ─────────────────────────────────────────────
+# Demo video (too large for GitHub)
+# ─────────────────────────────────────────────
+*.mp4
+*.mov
+*.avi
+
+# ─────────────────────────────────────────────
+# Jupyter Notebooks checkpoints
+# ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─────────────────────────────────────────────
+# OS / IDE
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+__pycache__/
+*.pyc
+
+# ─────────────────────────────────────────────
+# Environment files
+# ─────────────────────────────────────────────
+.env
+.env.*

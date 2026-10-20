@@ -1,0 +1,50 @@
+[
+  {
+    "hidden_channels": 64,
+    "num_layers": 2,
+    "params": 153921,
+    "epochs_run": 15,
+    "best_val_auc_seen": 0.7397608744324119,
+    "final_val_auc": 0.7397608744324119,
+    "final_val_precision": 0.1844086993192361,
+    "final_val_recall": 1.0,
+    "final_val_f1": 0.3113936927772126,
+    "train_seconds": 112.2
+  },
+  {
+    "hidden_channels": 64,
+    "num_layers": 3,
+    "params": 228929,
+    "epochs_run": 15,
+    "best_val_auc_seen": 0.7372400622029759,
+    "final_val_auc": 0.7372400622029759,
+    "final_val_precision": 0.184370669398084,
+    "final_val_recall": 0.999673309376021,
+    "final_val_f1": 0.31132363414386,
+    "train_seconds": 116.8
+  },
+  {
+    "hidden_channels": 32,
+    "num_layers": 3,
+    "params": 58657,
+    "epochs_run": 15,
+    "best_val_auc_seen": 0.7083626791024998,
+    "final_val_auc": 0.7083626791024998,
+    "final_val_precision": 0.1844086993192361,
+    "final_val_recall": 1.0,
+    "final_val_f1": 0.3113936927772126,
+    "train_seconds": 47.5
+  },
+  {
+    "hidden_channels": 32,
+    "num_layers": 2,
+    "params": 39585,
+    "epochs_run": 15,
+    "best_val_auc_seen": 0.7078081641188675,
+    "final_val_auc": 0.7078081641188675,
+    "final_val_precision": 0.1844086993192361,
+    "final_val_recall": 1.0,
+    "final_val_f1": 0.3113936927772126,
+    "train_seconds": 36.0
+  }
+]
